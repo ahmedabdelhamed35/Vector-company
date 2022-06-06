@@ -1,0 +1,442 @@
+html
+    head
+        title Business Website 
+        link(rel="stylesheet" href="style.css")
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous")
+    body
+        <!--------navigation---------->
+        
+         <section id="nav-bar"> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                 img(src="imgs/blue.png",) 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT  AS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVISE</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">OUR TEAM</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link" href="#price">PRICE PLANS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Testimonials">TESTMONIALS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </section>
+        // Slider 
+        div(id="Slider") 
+            <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#headerSlider" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#headerSlider" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="imgs/christin-hume-Hcfwew744z4-unsplash.jpg" class="d-block img-fluid" >
+                        .carousel-caption 
+                            h5 How To Make A Website
+                    </div>
+                    <div class="carousel-item">
+                    <img src="imgs/kelly-sikkema-Dx1b5ucschA-unsplash.jpg" class="d-block img-fluid" >
+                        .carousel-caption 
+                            h5 Create A Responsive Website 
+
+                    </div>
+                    <div class="carousel-item">
+                    <img src="imgs/annie-spratt-XMpXzzWrJ6g-unsplash.jpg" class="d-block img-fluid" >
+                        .carousel-caption
+                            h5 Business Website Design
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#headerSlider" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#headerSlider" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+                </div>
+        // About
+        section(id="about")
+            .container
+                .row
+                    .col-md-6
+                        h2 About As
+                        .about-content In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                        div 
+                            button(class="btn btn-primary") Read more
+                    div(class="col-md-6 skills-bar")   
+                        p Adope Photoshop     
+                        .progress
+                            div(class="progress-bar", style="width:80%") 80%
+
+                        p UI design     
+                        .progress
+                            div(class="progress-bar", style="width:85%") 85%
+
+                        p WordPress     
+                        .progress
+                            div(class="progress-bar", style="width:75%") 75%
+
+                        p Graphic Design     
+                        .progress
+                            div(class="progress-bar", style="width:50%") 50%
+        // Servicees
+        
+        section(id="services")
+            div(class="container")
+                h1 Our Services
+                div(class="row services")
+
+                  
+                    div(class="col-md-3 text-center")
+                          
+                            .icon 
+                                <i class="fa fa-desktop"></i>
+                            h3 Web Development
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+
+                    div(class="col-md-3 text-center")
+                           
+                            .icon 
+                                <i class="fa fa-tablet"></i>
+                            h3 App Development
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to dem
+
+                    div(class="col-md-3 text-center") 
+                            .icon 
+                                <i class="fa fa-line-chart"></i>
+                            h3 Digital Marketing
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+
+                    div(class="col-md-3 text-center")
+                          
+                            .icon 
+                                <i class="fa fa-paint-brush"></i>
+                            h3 Graphic Designing
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                                 
+        // Team members
+        section(id="team")
+            div(class="container")
+                h1  Our Team
+                div(class="row")
+                    div(class="col-md-3 profile-pic text-center")
+                        div(class="img-box")
+                            img(src="imgs/ashkan-forouzani-RbqZucCIHNw-unsplash.jpg", class="img-responsive" style="width:101.8%")
+                            ul
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-facebook")
+
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-twitter")
+
+                                a(href="")
+                                    li 
+                        
+                                        i(class="fa fa-linkedin")
+                            h2 Jhon kumer
+                            h3 Founder / CEO
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+
+
+                    div(class="col-md-3 profile-pic text-center")
+                        div(class="img-box")
+                            img(src="imgs/carlos-lindner-DkSkgaPie8s-unsplash.jpg", class="img-responsive" style="width:104.5%")
+                            ul
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-facebook")
+
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-twitter")
+
+                                a(href="")
+                                    li 
+                        
+                                        i(class="fa fa-linkedin")
+                            h2 Jhon kumer
+                            h3 Founder / CEO
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+
+
+                    div(class="col-md-3 profile-pic text-center")
+                        div(class="img-box")
+                            img(src="imgs/harishan-kobalasingam-8PMvB4VyVXA-unsplash.jpg", class="img-responsive" style="width:101.7%")
+                            ul
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-facebook")
+
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-twitter")
+
+                                a(href="")
+                                    li 
+                        
+                                        i(class="fa fa-linkedin")
+                            h2 Jhon kumer
+                            h3 Founder / CEO
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+
+
+                    div(class="col-md-3 profile-pic text-center")
+                        div(class="img-box")
+                            img(src="imgs/craig-mckay-jmURdhtm7Ng-unsplash.jpg", class="img-responsive" style="width:105%")
+                            ul
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-facebook")
+
+                                a(href="")
+                                    li 
+                                        i(class="fa fa-twitter")
+
+                                a(href="")
+                                    li 
+
+                                        i(class="fa fa-linkedin")
+                            h2 Jhon kumer
+                            h3 Founder / CEO
+                            p In publishing and graphic design, Lorem ipsum is a placeholder text commonly
+        // promo sectiom
+        section(id="promo")
+            .container
+                 p Get Free Domain Name And Web Hosting
+                 a(href="#" class="btn btn-primary") Contact Us
+
+        // Price Plan
+        section(id="price")
+            .container
+               h1 Price Plan  
+               div(class="row")
+                    div(class="col-md-3")
+                        .single-price
+                            .price-head 
+                                h2 Free
+                                p $0
+                                    span month  
+                            .price-content
+                                ul
+                                    li 
+                                        <i class="fas fa-check-circle"></i> 5GB Space
+                                       
+                                    li  
+                                        <i class="fas fa-check-circle"></i> 10GB Bandwidth
+                                    li
+                                         <i class="fas fa-times-circle"></i>  15GB Email Account
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Domain
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Support
+                            .price-button
+                                a(class="buy-btn" href="#") Join Free
+
+
+
+                    div(class="col-md-3")
+                        .single-price
+                            .price-head 
+                                h2 Free
+                                p $0
+                                    span month  
+                            .price-content
+                                ul
+                                    li 
+                                        <i class="fas fa-check-circle"></i> 5GB Space
+                                       
+                                    li  
+                                        <i class="fas fa-check-circle"></i> 10GB Bandwidth
+                                    li
+                                         <i class="fas fa-times-circle"></i>  15GB Email Account
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Domain
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Support
+                            .price-button
+                                a(class="buy-btn" href="#") Join Free
+
+
+
+                    div(class="col-md-3")
+                        .single-price
+                            .price-head 
+                                h2 Free
+                                p $0
+                                    span month  
+                            .price-content
+                                ul
+                                    li 
+                                        <i class="fas fa-check-circle"></i> 5GB Space
+                                       
+                                    li  
+                                        <i class="fas fa-check-circle"></i> 10GB Bandwidth
+                                    li
+                                         <i class="fas fa-times-circle"></i>  15GB Email Account
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Domain
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Support
+                            .price-button
+                                a(class="buy-btn" href="#") Join Free
+
+
+
+                    div(class="col-md-3")
+                        .single-price
+                            .price-head 
+                                h2 Free
+                                p $0
+                                    span month  
+                            .price-content
+                                ul
+                                    li 
+                                        <i class="fas fa-check-circle"></i> 5GB Space
+                                       
+                                    li  
+                                        <i class="fas fa-check-circle"></i> 10GB Bandwidth
+                                    li
+                                         <i class="fas fa-times-circle"></i>  15GB Email Account
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Domain
+                                    li 
+                                        <i class="fas fa-times-circle"></i>Unlimited Support
+                            .price-button
+                                a(class="buy-btn" href="#") Join Free
+        
+        // Testimonials
+        section(id="Testimonials")
+            .container
+                h1 Testimonials
+                p(class="text-center") In publishing and graphic design, Lorem ipsum is a placeholder text commonly.
+                div(class="row", style="margin-top: 30px;")
+                    div(class="col-md-4 text-center")
+                        div(class="profile")
+                            img(src="imgs/reza-biazar-eSjmZW97cH8-unsplash.jpg", class="user",)
+                            blockquote In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            h3 Avinash Hr
+                                 span Co-Founder at XYZ 
+
+
+                    div(class="col-md-4 text-center")
+                        div(class="profile")
+                            img(src="imgs/michael-dam-mEZ3PoFGs_k-unsplash.jpg", class="user",)
+                            blockquote In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            h3 michael dam
+                                 span Co-Founder at XYZ 
+
+
+                    div(class="col-md-4 text-center")
+                        div(class="profile")
+                            img(src="imgs/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg", class="user",)
+                            blockquote In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            h3 joseph gonzalez
+                                 span Co-Founder at XYZ 
+        // Get in Touch
+        section(id="contact")
+            .container
+                h1 Get In Touch
+                .row
+                    .col-md-6
+                        form(class="contact-form")
+                        .form-group
+                            input(type="text" class="form-control" placeholder="Your Name")
+                        .form-group
+                            input(type="number" class="form-control" placeholder="Phone number")
+                        .form-group
+                            input(type="Email" class="form-control" placeholder="Email ID")
+                        .form-group
+                            textarea(type="text" class="form-control" rows="4" placeholder="Your Message")
+                            button(type="submit" class="btn btn-primary") SEND MESSAGE
+
+                    div(class="col-md-6 contact-info")
+
+                        div(class="follow") <b>Adress:</b><i class="fa fa-map-marker"></i> XYZ Road,Bangalore, IN
+                    
+                    
+                        div(class="follow") <b>phone:</b><i class="fa fa-phone"></i> +1 1234567890
+
+                    
+                        div(class="follow") <b>Email:</b><i class="fa fa-envelope-o" aria-hidden="true"></i> example@website.com
+
+                        div(class="follow") 
+                            label
+                                <b>Adress:</b>
+                            a(href="#")    
+                                 <i class="fa fa-facebook"></i>
+                            a(href="#")
+                                 <i class="fa fa-youtube-play"></i>
+
+                            a(href="#")
+                                 <i class="fa fa-twitter"></i> 
+
+                            a(href="#")
+                                <i class="fa fa-google-plus"></i>
+                                
+                                
+
+
+
+
+        // Footer
+        section(id="footer")  
+            div(class="container text-center")
+                p Made with 
+                     <i class="fa fa-heart-o"></i> by Ahmed Abdelhamed
+
+
+        <script src="js/smooth-scroll.polyfills.min.js"></script> 
+
+        <script> var scroll = new SmoothScroll('a[href*="#"]');  </script>     
+
+        <script src="https://kit.fontawesome.com/f945ad3b02.js" crossorigin="anonymous"></script>
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js', integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW', crossorigin='anonymous')
+
+
+        
+             
+
+
+
+
+
+
+
+
+
+
+
+
